@@ -55,7 +55,7 @@ export const PROFILE = {
         center: "Centro Fijo de Formación para el Empleo Remedios Rojo / Junta de Andalucía",
         hours: "260h",
         period: "10/2025 – 01/2026",
-        details: "Desarrollo web integral, Node.js, React, APIs REST y bases de datos SQL (Apto con Sobresaliente 9.55)."
+        details: "Desarrollo web integral, Node.js, React, APIs REST y bases de datos SQL"
       },
       {
         title: "Programación para Soluciones de IoT y Smart City Aplicables a Entornos 5G",
@@ -147,7 +147,7 @@ export const PROFILE = {
         center: "Remedios Rojo / Junta de Andalucía",
         hours: "260h",
         period: "10/2025 – 01/2026",
-        details: "Node.js, React, APIs REST et bases de données SQL (Note: Excellent 9.55)."
+        details: "Node.js, React, APIs REST et bases de données SQL ."
       },
       {
         title: "Solutions IoT & Smart City en Environnements 5G",
@@ -239,7 +239,7 @@ export const PROFILE = {
         center: "Remedios Rojo / Junta de Andalucía",
         hours: "260h",
         period: "10/2025 – 01/2026",
-        details: "Node.js, React, REST APIs & SQL Databases (Grade: Outstanding 9.55)."
+        details: "Node.js, React, REST APIs & SQL Databases ."
       },
       {
         title: "IoT & Smart City Solutions in 5G Environments",
