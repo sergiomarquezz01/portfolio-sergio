@@ -1,0 +1,40 @@
+.footer {
+  margin-top: 4rem;
+  border-top: 1px solid #21262d;
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-family: ui-monospace, SFMono-Regular, monospace;
+  font-size: 0.8rem;
+  color: #8b949e;
+}
+
+.statusGroup {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.greenDot {
+  width: 8px;
+  height: 8px;
+  background: #2ea043;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #2ea043;
+}
+
+.metrics {
+  display: flex;
+  gap: 1rem;
+}
+
+.metricBadge {
+  background: #161b22;
+  border: 1px solid #30363d;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  color: #c9d1d9;
+}

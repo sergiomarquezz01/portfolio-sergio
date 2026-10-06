@@ -1,0 +1,83 @@
+.card {
+  background: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 1.5rem;
+  max-width: 680px;
+  margin: 2rem auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  color: #58a6ff;
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.subtitle {
+  color: #8b949e;
+  font-size: 0.85rem;
+  margin-bottom: 1.5rem;
+}
+
+.formGroup {
+  margin-bottom: 1rem;
+}
+
+.label {
+  display: block;
+  color: #c9d1d9;
+  font-size: 0.85rem;
+  margin-bottom: 0.4rem;
+}
+
+.slider {
+  width: 100%;
+  accent-color: #2ea043;
+  cursor: pointer;
+}
+
+.select {
+  width: 100%;
+  background: #161b22;
+  color: #f0f6fc;
+  border: 1px solid #30363d;
+  padding: 0.5rem;
+  border-radius: 6px;
+  outline: none;
+}
+
+.button {
+  width: 100%;
+  background: #238636;
+  color: #ffffff;
+  border: none;
+  padding: 0.65rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.button:hover {
+  background: #2ea043;
+}
+
+.resultBox {
+  margin-top: 1rem;
+  padding: 0.8rem;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.fraud {
+  border: 1px solid #f85149;
+  background: rgba(248, 81, 73, 0.15);
+  color: #ff7b72;
+}
+
+.safe {
+  border: 1px solid #2ea043;
+  background: rgba(46, 160, 67, 0.15);
+  color: #56d364;
+}

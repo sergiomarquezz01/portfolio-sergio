@@ -1,0 +1,45 @@
+.wrapper {
+  margin-top: 1rem;
+}
+
+.toggleBtn {
+  background: #161b22;
+  color: #58a6ff;
+  border: 1px solid #30363d;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-family: ui-monospace, SFMono-Regular, monospace;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.toggleBtn:hover {
+  background: #21262d;
+}
+
+.codeBox {
+  margin-top: 0.8rem;
+  background: #05070a;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+.codeHeader {
+  color: #8b949e;
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #21262d;
+  padding-bottom: 0.4rem;
+  font-family: ui-monospace, SFMono-Regular, monospace;
+}
+
+.pre {
+  color: #39c5bb;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin: 0;
+}
