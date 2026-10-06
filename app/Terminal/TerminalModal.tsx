@@ -14,22 +14,31 @@ export default function TerminalModal() {
       const cmd = input.trim().toLowerCase();
       let response = "";
 
+      // Usamos el perfil en español para los datos de la terminal
+      const data = PROFILE.es;
+
       switch (cmd) {
         case "help":
-          response = "Comandos: 'skills', 'education', 'contact', 'clear', 'sudo hire'";
+          response = "Comandos disponibles: 'skills', 'education', 'specializations', 'workshops', 'contact', 'clear', 'sudo hire'";
           break;
         case "skills":
           const { languages, aiData, frameworks, tools } = PROFILE.skills;
           response = `Tech Stack -> Lenguajes: [${languages.join(", ")}] | IA/BigData: [${aiData.join(", ")}] | Frameworks: [${frameworks.join(", ")}] | Tools: [${tools.join(", ")}]`;
           break;
         case "education":
-          response = PROFILE.education.map(e => `${e.title} [${e.center}]`).join(" | ");
+          response = data.education.map((item: { title: string; center: string }) => `${item.title} [${item.center}]`).join(" | ");
+          break;
+        case "specializations":
+          response = data.specializations.map((spec: { title: string; hours: string }) => `${spec.title} (${spec.hours})`).join(" | ");
+          break;
+        case "workshops":
+          response = data.workshops.map((ws: { title: string; issuer: string }) => `${ws.title} (${ws.issuer})`).join(" | ");
           break;
         case "contact":
-          response = `Email: ${PROFILE.email} | Location: ${PROFILE.location}`;
+          response = `Email: ${PROFILE.email} | Tel: ${PROFILE.phone} | GitHub: ${PROFILE.github}`;
           break;
         case "sudo hire":
-          response = "🚀 Acceso concedido. Contactando directamente con Sergio Márquez...";
+          response = "🚀 Acceso concedido. Enviando propuesta directa a marquezsergiolfm@gmail.com...";
           break;
         case "clear":
           setHistory([]);
